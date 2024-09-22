@@ -19,9 +19,9 @@ Kurose & Rose
 	1. [[Introducción a las Redes de los Ordenadores]]
 	2. [[Retardos]]
 2. Capas de aplicación
-	1. Principios de nivel de aplicación. Servicios ofrecidos por la capa de transporte a la capa de aplicación. DNS
+	1. [[Principios de nivel de aplicación. Servicios ofrecidos por la capa de transporte a la capa de aplicación. DNS]]
 3. Capa de transporte
-	1. Principios de nivel de transporte
+	1. [[Principios de nivel de transporte]]
 	2. Transferencias de datos fiables
 	3. TCP
 	4. Principios de control de congestión. Control de congestión de TCP

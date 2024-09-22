@@ -54,18 +54,3 @@ donde:
 
 El mayor exponente es la máquina Enigma. Máquina eléctrico-mecánica, formado por varios rotores. Cada vez que se introducía una letra, la posición del rotor cambiaba. Cuando el primer rotor daba una vuelta entera, el de su izquierda rotaba una vez.
 
-### Sustitución poli-alfabética no periódica
-
-Cifrado de Vernam, es un tipo de cifrado de flujo arcaico. Solo existe de manera teórica. Se demostró que es **incondicionalmente seguro** si la clave k:
-- Es realmente aleatoria
-- Se usa solo una vez
-- Es de longitud igual o mayor que M
-Consiste en combinar el mensaje y un flujo constante totalmente aleatorio del mismo tamaño que la clave mediante la operación XOR para cifrar el mensaje. 
-El cifrado sigue la siguiente fórmula:
-$$E(M) = M \oplus K = m_1 + k_1,\space m_2 + k_2, \space ... \space, \space m_n + k_n$$
-Mientras que el descifrado sigue esta otra:
-$$M = E(M) \oplus K$$
-Es computacionalmente imposible, no somos capaces de generar alfabetos **aleatorios**, solamente **pseudo-aleatorios**. Al ser pseudo-aleatorios, la #entropía no es máxima y por ende no es incondicionalmente seguro.
-
-**Otro problema** de este algoritmo (y de aquellos puramente aleatorios) es que no somos capaces de replicar una clave aleatoria. Entonces, es imposible descifrar el mensaje.
-
