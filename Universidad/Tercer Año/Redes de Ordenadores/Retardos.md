@@ -1,4 +1,4 @@
-Se puede definir el contenido de este apartado en las siguientes fórmulas:
+-.Se puede definir el contenido de este apartado en las siguientes fórmulas:
 
 $$t\text{\scriptsize minor} = t\text{\scriptsize trans} + t\text{\scriptsize proc} + t\text{\scriptsize queue} + t\text{\scriptsize prop}$$
 

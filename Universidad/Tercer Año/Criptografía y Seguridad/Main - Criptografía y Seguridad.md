@@ -19,7 +19,7 @@ Semana >14 (09.12), presentación trabajos
 # Contenidos
 
 1. [[Fundamentos de seguridad informática]]
-2. [[Fundamentos matemáticos de la criptografía]]
+2. [[Cifradores simétricos de bloque y modos de operación de cifrado]] 
 3. [[Mecanismos y protocolos criptográficos]]
 4. [[Autenticación e Infraestructuras de clave pública]]
 5. [[Aspectos legales]]

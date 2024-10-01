@@ -13,7 +13,7 @@ Pero esto no es siempre escalable. Estos costes pueden ser exponenciales, lineal
 
 Cada negocio, startup o no, tiene una inversión inicial (tendencia negativa) y un objetivo económico que compensa dicha inversión a medida que pasa el tiempo (tendencia positiva)
 
-![[Pasted image 20240918113944.png]]
+![[j-curve.png]]
 
 En las startups, lo importante es que existan este tipo de curvas, especialmente para las **rondas de inversión**.
 

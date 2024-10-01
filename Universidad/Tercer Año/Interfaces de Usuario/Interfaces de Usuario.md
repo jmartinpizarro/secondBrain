@@ -24,3 +24,6 @@ Se interactua con elementos presentes en el espacio de diseño a través de los 
 
 Ejemplos de estas interfaces son las aplicaciones de realidad
 virtual, mixta y aumentada.
+
+---
+¿Esto es útil? ¿Es práctico? **Todo depende de si es usable**. Es decir, que todo está relacionado con la [[Usabilidad]] 

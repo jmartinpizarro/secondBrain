@@ -54,3 +54,5 @@ donde:
 
 El mayor exponente es la máquina Enigma. Máquina eléctrico-mecánica, formado por varios rotores. Cada vez que se introducía una letra, la posición del rotor cambiaba. Cuando el primer rotor daba una vuelta entera, el de su izquierda rotaba una vez.
 
+
+Este tipo de algoritmos son usados especialmente en los [[Cifradores de bloques]].

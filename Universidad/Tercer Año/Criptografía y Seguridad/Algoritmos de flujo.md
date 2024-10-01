@@ -74,7 +74,7 @@ En la teoría, una serie cifrante debería tener ciertas propiedades deseables:
 
 Es conocido como **Registro de desplazamiento con realimentación lineal** (Linear Feedback Shift Register). 
 
-![[Pasted image 20240918071533.png]] 
+![[LinearShiftRegister.png]] 
 
 donde:
 $$n = \text{número de celdas del registro}$$
@@ -84,7 +84,7 @@ $$\text{Función única}: XOR \space \oplus$$
 $$\text{Período máximo} = T_{max} = 2^n -1$$
 $$Semilla: \text{valores iniciales de cada celda}$$
 
-![[Pasted image 20240918072236.png]]
+![[LinearShiftRegisterEj.png]]
 
 El **LFSR** tiene períodos muy altos, pero una *complejidad lineal muy baja*. ¿Solución? Aumentar la complejidad usando varios LFSR:
 - Operaciones lineales de secuencias pseudoaleatorias
@@ -95,5 +95,19 @@ El **LFSR** tiene períodos muy altos, pero una *complejidad lineal muy baja*. �
 
 No sabemos probar que algo es aleatorio (computacionalmente), pero *sí podemos probar que algo no es aleatorio* -> rechazamos las series aleatorias, pero aceptamos aquellas que no nos den motivos para pensar que no son aleatorias
 
+# ChaCha20
 
+Es una variante del Salsa20, actualmente es la competencia al estándar de AES, algoritmo de clave simétrica.
 
+Todos los algoritmos de flujo (este también) siguen un patrón:
+	1. Hacen unas operaciones iniciales
+	2. Hacen unas rondas (permutaciones y sustituciones)
+	3. Hacen unas operaciones finales
+
+Usa varias cosas para generar una clave:
+- Contraseña
+- Contador de posición
+- Vector de inicialización
+- Constante
+
+Con todo esto, genera una matriz. La gran diferencia entre Salsa y Chacha es la matriz que es generada (las posiciones de los elementos son distintas)

@@ -27,7 +27,7 @@ $C^T = \text {vector de coeficientes de la función objetivo y X = vector de coe
 
 | NOMBRES ECUACIONES LINEALES | SIGNIFICADO            | INTERPRETACIÓN GRÁFICA               | PROGRAMACIÓN LINEAL          |
 | --------------------------- | ---------------------- | ------------------------------------ | ---------------------------- |
-| S. Compatible Determinado   | 1 solución             | ![[Pasted image 20240918155233.png]] | SOLUCIÓN ÓPTIMA ÚNICA        |
-| S. Compatible Indeterminado | $\infty$ soluciones    | ![[Pasted image 20240918155306.png]] | SOLUCIONES ÓPTIMAS INFINITAS |
-| S. Incompatible             | $\emptyset$ soluciones | ![[Pasted image 20240918155256.png]] | REGIÓN FACTIBLE VACÍA        |
+| S. Compatible Determinado   | 1 solución             | ![[ProgL1.png]] | SOLUCIÓN ÓPTIMA ÚNICA        |
+| S. Compatible Indeterminado | $\infty$ soluciones    | ![[ProgL2.png]] | SOLUCIONES ÓPTIMAS INFINITAS |
+| S. Incompatible             | $\emptyset$ soluciones | ![[ProgL3.png]] | REGIÓN FACTIBLE VACÍA        |
 Cuando el isobeneficio es infinito (la región no está cerrada), nos referimos a ella cómo **Región Factible No Acotada**.
