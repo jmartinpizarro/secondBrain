@@ -26,7 +26,7 @@ Kurose & Rose
 	3. TCP
 	4. Principios de control de congestión. Control de congestión de TCP
 4. Capa de red
-	1. Principios de nivel de red. Circuitos virtuales y datagramas. Arquitectura de un router. 
+	1. [[1728399982 - Principios de nivel de red. Circuitos virtuales y datagramas. Arquitectura de un router.|Principios de nivel de red. Circuitos virtuales y datagramas. Arquitectura de un router.]]
 	2. Encabezado IP, fragmentación, direccionamiento.
 	3. DCHP, NAT, ICMP
 	4. Algoritmos de encaminamiento. Estado de enlaces. Vector de distancias. Routing jerárquico.

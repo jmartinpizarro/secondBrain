@@ -21,5 +21,6 @@ Semana >14 (09.12), presentación trabajos
 1. [[Fundamentos de seguridad informática]]
 2. [[Cifradores simétricos de bloque y modos de operación de cifrado]] 
 3. [[Mecanismos y protocolos criptográficos]]
-4. [[Autenticación e Infraestructuras de clave pública]]
+4. [[1728306915 - Integridad y autenticación con criptografía simétrica]]
 5. [[Aspectos legales]]
+

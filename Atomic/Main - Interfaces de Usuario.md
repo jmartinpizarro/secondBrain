@@ -13,7 +13,7 @@
 
 1. [[Introducción a HCI]]
 2. Proceso de diseño de las interfaces de usuario
-	1. Diseño y prototipado
+	1. [[Diseño y prototipado]] 
 	2. Patrones de diseño y heurísticas
 	3. Evaluación
 3. Factores humanos en el diseño de interfaces.

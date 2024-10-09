@@ -13,7 +13,7 @@
 - Receptor:
 	- recibe el mensaje desde la IP
 	- comprueba los valores de la cabecera
-	- extra el mensaje de la capa aplicación
+	- extrae el mensaje de la capa aplicación
 	- demultiplexea el mensaje y lo envía a la capa de aplicación
 
 ## ¿Cómo funciona el demultiplexeo?

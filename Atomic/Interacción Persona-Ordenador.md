@@ -1,3 +1,11 @@
+---
+tags:
+  - review
+sr-due: 2024-10-06
+sr-interval: 3
+sr-ease: 250
+---
+
 Los **objetos** tienen que diseñarse, además de para su uso, para otros factores tales como:
 - Visibilidad
 - Causalidad

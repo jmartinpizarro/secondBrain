@@ -31,3 +31,7 @@ $C^T = \text {vector de coeficientes de la función objetivo y X = vector de coe
 | S. Compatible Indeterminado | $\infty$ soluciones    | ![[ProgL2.png]] | SOLUCIONES ÓPTIMAS INFINITAS |
 | S. Incompatible             | $\emptyset$ soluciones | ![[ProgL3.png]] | REGIÓN FACTIBLE VACÍA        |
 Cuando el isobeneficio es infinito (la región no está cerrada), nos referimos a ella cómo **Región Factible No Acotada**.
+
+>[!CAUTION]
+>Cuidado con la declaración de variables binarias a la hora de modelizar. Para más información, véase [[1727968348 - Sobre condiciones binarias en programación lineal|Sobre condiciones binarias en programación lineal]]
+

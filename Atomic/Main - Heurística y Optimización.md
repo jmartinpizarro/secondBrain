@@ -6,10 +6,11 @@
 
 1. [[Introducción a la Teoría de la Optimización]]
 2. [[Programación Lineal]]
-	1. Método SIMPLEX
-	2. Dualidad
-	3. Programación lineal entera
-	4. Implementación y eficiencia
+	1. [[1728393715 - Método Simplex]]
+	2. [[1728482302 - Modelización]] 
+	3. Dualidad
+	4. Programación lineal entera
+	5. Implementación y eficiencia
 3. Satisfacción de restricciones
 	1. SAT
 	2. CSP

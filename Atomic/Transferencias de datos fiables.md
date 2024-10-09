@@ -14,4 +14,6 @@ El problema recae en cómo transferir datos seguros por un canal inseguro
 Podemos determinar distintos tipos de errores de transmisión en un canal dependiendo del tipo de error (dónde, cómo...):
 - [[Envío con errores de bit]] 
 - [[Envío con errores y pérdidas]]
-- [[Sliding Window]]
+
+
+Se puede solucionar también con una [[Sliding Window]]. 
