@@ -110,7 +110,7 @@ Son una serie de reglas escritas por Nielsen. Las 10 heurísticas principales so
 - Reconocimiento antes que recuerdo
 - Flexibilidad y eficiencia de uso
 - Estética y diseño minimalista
-- Ayudar a los usuarios
+- Ayudar a los usuarios y documentación
 
 ### Patrones de diseño
 

@@ -3,8 +3,12 @@ aliases:
   - Modelización
 tags:
   - review
-"References":
-cssclasses:
+  - programacionLineal
+References: 
+cssclasses: 
+sr-due: 2024-10-28
+sr-interval: 10
+sr-ease: 270
 ---
 # Modelización
 

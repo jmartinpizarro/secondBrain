@@ -20,7 +20,11 @@ Semana >14 (09.12), presentación trabajos
 
 1. [[Fundamentos de seguridad informática]]
 2. [[Cifradores simétricos de bloque y modos de operación de cifrado]] 
-3. [[Mecanismos y protocolos criptográficos]]
-4. [[1728306915 - Integridad y autenticación con criptografía simétrica]]
+3. [[1728306915 - Integridad y autenticación con criptografía simétrica|Integridad y autenticación con criptografía simétrica]]
+4. [[1729420141 - Cifrado Asimétrico|Cifrado Asimétrico]]
+	1. [[1730126391 - Cifrado Híbrido|Cifrado Híbrido]]
+	2. [[1730124755 - Acuerdo de clave simétrica|Acuerdo de clave simétrica]]
+	3. [[1730133054 - Protocolo TLS|Protocolo TLS]]
+	4. [[1730133659 - Criptografía Post Cuántica|Criptografía Post Cuántica]]
 5. [[Aspectos legales]]
 

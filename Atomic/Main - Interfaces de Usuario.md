@@ -15,7 +15,8 @@
 2. Proceso de diseño de las interfaces de usuario
 	1. [[Diseño y prototipado]] 
 	2. Patrones de diseño y heurísticas
-	3. Evaluación
+	3. [[1730815301 - Diseño Inclusivo y Accesible|Diseño Inclusivo y Accesible]]
+	4. Evaluación
 3. Factores humanos en el diseño de interfaces.
 
 En esta asignatura usaremos tecnologías webs como [[HTML]], [[CSS]] y [[JavaScript]].

@@ -26,5 +26,4 @@ Esto significa, matemáticamente, que seremos más óptimos al usar $CG(2^n)$ qu
 - Mientras que usamos $2^n$ bits, con el polinomio usamos $n+1$ bits (más números, menos óptimo)
 - Aprovecha toda la capacidad de la representación electrónica
 - Cálculos inversos más rápidos
-- 
 

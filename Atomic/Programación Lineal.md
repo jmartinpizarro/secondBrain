@@ -1,3 +1,13 @@
+---
+tags:
+  - review
+  - programacionLineal
+sr-due: 2024-10-17
+sr-interval: 1
+sr-ease: 232
+---
+# Programación Lineal
+
 Se basa en **encontrar soluciones óptimas en un coste (temporal) polinómico**.
 
 Una tarea de programación lineal está en forma de **CANÓNICA** sí y solo sí se dan tres condiciones:

@@ -6,6 +6,9 @@ tags:
   - mac
 References: 
 cssclasses:
+sr-due: 2024-11-02
+sr-interval: 15
+sr-ease: 290
 ---
 # MAC basados en cifradores de bloque
 

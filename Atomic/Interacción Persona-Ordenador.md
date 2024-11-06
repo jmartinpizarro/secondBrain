@@ -1,8 +1,8 @@
 ---
 tags:
   - review
-sr-due: 2024-10-06
-sr-interval: 3
+sr-due: 2024-10-28
+sr-interval: 10
 sr-ease: 250
 ---
 

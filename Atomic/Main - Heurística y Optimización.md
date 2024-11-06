@@ -6,13 +6,12 @@
 
 1. [[Introducción a la Teoría de la Optimización]]
 2. [[Programación Lineal]]
-	1. [[1728393715 - Método Simplex]]
-	2. [[1728482302 - Modelización]] 
-	3. Dualidad
-	4. Programación lineal entera
-	5. Implementación y eficiencia
-3. Satisfacción de restricciones
-	1. SAT
+	1. [[1728393715 - Método Simplex|Método Simplex]]
+	2. [[1728482302 - Modelización|Modelización]]
+	3. [[1729084459 - Dualidad|Dualidad]] 
+	4. [[1729087442 - Programación lineal entera|Programación lineal entera]]
+3. [[1730297192 - Satisfacibilidad Lógica|Satisfacibilidad Lógica]] 
+	1. [[1730303159 - Satisfacción de restricciones|Satisfacción de restricciones]]
 	2. CSP
 4. Búsqueda
 	1. Búsqueda de fuerza bruta

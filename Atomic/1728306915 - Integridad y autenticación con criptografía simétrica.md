@@ -7,6 +7,9 @@ tags:
   - mac
 References: 
 cssclasses:
+sr-due: 2024-10-29
+sr-interval: 15
+sr-ease: 294
 ---
 # Integridad y autenticación con criptografía simétrica
 
@@ -84,5 +87,59 @@ Cualquier entidad con la clave puede *verificar* la integridad del mensaje.
 Nos podemos encontrar **dos tipos de MAC**:
 
 - [[1728313824 - MAC basados en funciones resumen|MAC basados en funciones resumen]]
-- MAC basados en cifrados de bloques
+- [[1728313907 - MAC basados en cifradores de bloque|MAC basados en cifradores de bloque]]
+
+## Cifrado Autenticado
+
+Proporcionar tanto confidencialidad, integridad y autenticidad en las comunicaciones. Usamos tanto *cifrado simétrico* como *MAC*
+
+Tenemos tres tipos distintos:
+- Encrypt-then-MAC: alta seguridad si la MAC es la adecuada
+- Encrypt-and-MAC: existe *un problema*: el mismo texto genera la misma MAC
+- MAC-then-encrypt: verificar la integridad require que se descifre primero
+
+## Modos de operación de cifrado autenticado
+
+### Cifrado autenticado y modos de operación
+
+Proporcionar al mismo tiempo **confidencialidad, integridad y autenticidad**. Son similares a los cifradores simétricos, pero introduciendo elementos de autenticación:
+
+- GCM Gaulois Counter MODE (AES con GCM)
+- Poly1305 (CHACHA20 con Poly1305)
+
+### GCM
+
+Extensión del modo de operación [[1729418366 - CTR - Counter Mode Encryption|CTR - Counter Mode Encryption]] , incluyendo autenticación. El cifrado se realiza como un CTR. Se añade una función MAC con operaciones en cuerpos de Galois.
+
+En paralelo al CTR se realiza la autenticación, que es una multiplicación en $CG(2^{128})$. 
+
+![[GCM Galois Counter Mode.png]]
+
+## Poly1305
+
+Es un MAC con funciones resumen. Muy rápido, ya que usa [[1729418856 - ChaCha20|ChaCha20]] (algoritmo de flujo). 
+
+El cifrado ocurre a partir del bloque 1 usando un contador.
+
+El *Auth Tag* se genera a partir de:
+1. Se combina el texto cifrado con ChaCha20 y Auth Data.
+2. Se aplica Poly1305 sobre el resultado
+3. La clave que usa Poly1305 para genera el Auth Tag se obtiene en el bloque 0.
+
+## Comunicaciones seguras - TLS
+
+Hereda del protocolo de redes [[1728882855 - TCP|TCP]], habilitando el cifrado de datos. Cualquier comunicación HTTPS se realiza con TLS, que se encarga de crear un canal seguro para la transmisión.
+
+Aporta:
+- Confidencialidad
+- Autenticación
+- Integridad
+
+Para negociar el canal seguro TLS permite negociar al cliente y al servidor unas condiciones de seguridad, llamadas [[1729419322 - Suites de Cifrado|Suites de Cifrado]]
+
+
+
+
+
+
 ***

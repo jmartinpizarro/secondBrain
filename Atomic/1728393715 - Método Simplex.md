@@ -4,8 +4,12 @@ aliases:
 tags:
   - review
   - "#simplex"
+  - programacionLineal
 References: 
-cssclasses:
+cssclasses: 
+sr-due: 2024-10-18
+sr-interval: 4
+sr-ease: 270
 ---
 # Método Simplex
 

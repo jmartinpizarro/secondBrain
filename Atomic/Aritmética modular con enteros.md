@@ -1,3 +1,7 @@
+---
+tags:
+  - matemáticaDiscreta
+---
 # Introducción
 
 Sea $Z$ un conjunto de números enteros con $a, b, c \in Z$, con las siguientes propiedades:
@@ -41,4 +45,4 @@ $$\Phi(n) = \prod_{i} p_i^{k_i - 1} (p_i - 1)$$
 Sabiendo esto, podemos aplicar Euler para calcular un inverso:
 $$a^{-1} = a^{\phi(n)-1} (mód \space n)$$ cuando se nos pide calcular el inverso de un número (ejemplo):
 $$1 = 3x (mód \space 10)$$
-$donde a = 3, n = 10$ 
+$donde \space a = 3, n = 10$ 
