@@ -26,5 +26,8 @@ Semana >14 (09.12), presentación trabajos
 	2. [[1730124755 - Acuerdo de clave simétrica|Acuerdo de clave simétrica]]
 	3. [[1730133054 - Protocolo TLS|Protocolo TLS]]
 	4. [[1730133659 - Criptografía Post Cuántica|Criptografía Post Cuántica]]
-5. [[Aspectos legales]]
+5. [[1731333961 - Firma Digital|Firma Digital]]
+6. [[1731938621 - Certificados e Intraestructuras de Clave Pública|Certificados e Intraestructuras de Clave Pública]]
+7. [[1732543692 - Autenticación de Usuarios|Autenticación de Usuarios]]
+8. [[Aspectos legales]]
 

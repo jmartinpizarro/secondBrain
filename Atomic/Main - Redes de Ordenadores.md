@@ -30,6 +30,7 @@ Kurose & Rose
 	2. [[1729004772 - Direccionamiento IP|Direccionamiento IP]]
 		1. [[1729609969 - DHCP - Dynamic Host Configuration Protocol|DHCP - Dynamic Host Configuration Protocol]] 
 		2. [[1729614675 - NAT|NAT]]
-	3. DCHP, NAT, ICMP
-	4. Algoritmos de encaminamiento. Estado de enlaces. Vector de distancias. Routing jerárquico.
-	5. Encaminamiento en internet. Algoritmos de encaminamiento broadcast.
+		3. [[1731219908 - ICMP|ICMP]]
+	3. [[1731220408 - Algoritmos de encaminamiento. Estado de enlaces. Vector de distancias. Routing jerárquico|Algoritmos de encaminamiento. Estado de enlaces. Vector de distancias. Routing jerárquico]]
+	4. [[1731221594 - Encaminamiento en internet. Algoritmos de encaminamiento broadcast|Encaminamiento en internet. Algoritmos de encaminamiento broadcast]]
+5. [[1732032588 - Capa de Enlace|Capa de Enlace]]

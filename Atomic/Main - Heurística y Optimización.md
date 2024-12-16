@@ -11,13 +11,13 @@
 	3. [[1729084459 - Dualidad|Dualidad]] 
 	4. [[1729087442 - Programación lineal entera|Programación lineal entera]]
 3. [[1730297192 - Satisfacibilidad Lógica|Satisfacibilidad Lógica]] 
-	1. [[1730303159 - Satisfacción de restricciones|Satisfacción de restricciones]]
-	2. CSP
-4. Búsqueda
-	1. Búsqueda de fuerza bruta
-	2. Búsqueda heurística
-5. Programación dinámica
+	1. [[1730303159 - Satisfacción de restricciones|Satisfacción de restricciones]] 
+4. [[1731507790 - Búsqueda y espacio de estados|Búsqueda y espacio de estados]]
+	1. [[1732111782 - Búsqueda de Fuerza Bruta|Búsqueda de Fuerza Bruta]]
+	2. [[1732717004 - Búsqueda Heurística|Búsqueda Heurística]]
+5. [[1733926271 - Programación Dinámica|Programación Dinámica]]
 
+[[1733914437 - Exam - HyO - Test 2|Exam - HyO - Test 2]]
 ## Evaluación
 
 Con continua: 60% eval. continua + 40% ex. final

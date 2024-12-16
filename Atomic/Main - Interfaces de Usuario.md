@@ -16,8 +16,6 @@
 	1. [[Diseño y prototipado]] 
 	2. Patrones de diseño y heurísticas
 	3. [[1730815301 - Diseño Inclusivo y Accesible|Diseño Inclusivo y Accesible]]
-	4. Evaluación
+	4. [[1731420178 - Evaluación de Interfaces|Evaluación de Interfaces]]
 3. Factores humanos en el diseño de interfaces.
-
-En esta asignatura usaremos tecnologías webs como [[HTML]], [[CSS]] y [[JavaScript]].
 
