@@ -21,8 +21,8 @@ cssclasses:
 	3. Ajuste de hiper-parámetros
 	4. Pre-proceso
 4. Métodos avanzados para clasificación y regresión
-	1. Modelos lineales básicos
-	2. Máquinas de vectores de soporte - SVMs
+	1. [[1743355817 - Regresión Lineal|Regresión Lineal]]
+	2. [[1743357316 - Máquinas de vectores de soporte - SVMs|Máquinas de vectores de soporte - SVMs]]
 	3. Conjunto de modelos - Ensembles
 5. Aprendizaje no supervisado
 	1. Clustering
