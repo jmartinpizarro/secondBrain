@@ -25,7 +25,7 @@ cssclasses:
 	2. [[1743357316 - Máquinas de vectores de soporte - SVMs|Máquinas de vectores de soporte - SVMs]]
 	3. Conjunto de modelos - Ensembles
 5. Aprendizaje no supervisado
-	1. Clustering
+	1. [[1745747151 - Clustering|Clustering]]
 	2. Asociación
 6. Aprendizaje por refuerzo
 	1. Procesos de decisión de Markov
@@ -35,6 +35,6 @@ cssclasses:
 
 - 30% examen final - nota mínima 3 puntos
 - 10% examen parcial tipo test
-- 60% práctics
+- 60% prácticas
 	- 30% - primera práctica
 	- 30% - segunda práctica
