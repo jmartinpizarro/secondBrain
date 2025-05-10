@@ -14,4 +14,9 @@ cssclasses:
 4. [[1746195511 - Sockets|Sockets]]
 5. [[1746195531 - Servicios Distribuidos|Servicios Distribuidos]] 
 6. [[1746257393 - Sistemas de ficheros distribuidos|Sistemas de ficheros distribuidos]]
-7. 
+
+
+## Exámenes resueltos
+
+[[1746516491 - Examen SSDD - Mayo 2023|Examen SSDD - Mayo 2023]]
+
