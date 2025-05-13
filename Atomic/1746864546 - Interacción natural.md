@@ -13,6 +13,8 @@ La interacción natural es:
 - **Contextual**: evita sobrecargas, en vez de mostrar todas las opciones a la vez, se debe mostrar solo la información relevante. **Minimizamos la carga cognitiva**.
 - **Modos o medios físicos**: táctil, voz, gestual...
 
+*Affordance*: una propiedad del entorno que sugiere cómo debe ser usada.
+
 ### Experiencia natural
 
 Se aprovecha el potencial de estas tecnologías para reflejar mejor **las capacidades humanas**, optimizando el camino hacia el experto, **aplicarlas a contextos y tareas determinadas** y cumplir con **objetivos y necesidades**. 

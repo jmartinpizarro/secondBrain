@@ -27,7 +27,7 @@ cssclasses:
 5. Aprendizaje no supervisado
 	1. [[1745747151 - Clustering|Clustering]]
 	2. Asociación
-6. Aprendizaje por refuerzo
+6. [[1740989810 - Aprendizaje por refuerzo|Aprendizaje por refuerzo]]
 	1. Procesos de decisión de Markov
 	2. Q-learning
 
@@ -38,3 +38,8 @@ cssclasses:
 - 60% prácticas
 	- 30% - primera práctica
 	- 30% - segunda práctica
+
+### Exámenes
+
+[[1746940618 - Examen ML - Mayo 2024|Examen ML - Mayo 2024]] 
+[[1747036546 - Examen ML - Mayo 2023|Examen ML - Mayo 2023]] 
