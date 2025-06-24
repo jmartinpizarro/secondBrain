@@ -27,7 +27,7 @@ Hay una relación entre el hiper-parámetro $k$ y la capacidad de generalizació
 
 Normalmente se usa la **distancia Euclidea**:
 $$d = \sqrt{(x_2 - x_1)^2  + (y_2-y_1)^2}$$
-Para atributos categóricos, se puede usar la **distancia de Hamming**, basada en el número de bits en que difieren dos palabras del código.
+Para atributos categóricos, se puede usar la **[[1748079240 - Distancia de Hamming|Distancia de Hamming]]**.
 
 ## Consecuencias del uso de distancias de KNN
 

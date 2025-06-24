@@ -53,4 +53,3 @@ Estamos en la cuarta oleada.
 - **Computación inmersiva**:
 	- Realidad aumentada siempre disponible e integrada de manera fluida con el entorno.
 	- La interfaz de usuario no es 2D, sino el entorno en sí mismo.
-	- 
