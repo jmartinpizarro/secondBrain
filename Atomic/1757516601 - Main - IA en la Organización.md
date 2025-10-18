@@ -27,4 +27,7 @@ cssclasses:
 
 1. [[1757772418 - Sistemas Expertos|Sistemas Expertos]]
 2. [[1758531164 - Redes de Neuronas Artificiales|Redes de Neuronas Artificiales]]
-3. 
+3. Algoritmos evolutivos
+4. Data Mining
+5. [[1760347160 - Text Mining|Text Mining]]
+6. 

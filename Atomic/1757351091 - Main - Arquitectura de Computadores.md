@@ -13,7 +13,7 @@ cssclasses:
 2. [[1757949290 - Tendencias en Tecnología|Tendencias en Tecnología]]
 3. [[1757952072 - Evaluación del rendimiento de sistemas informáticos|Evaluación del rendimiento de sistemas informáticos]]
 4. [[1758554724 - Jerarquía de memoria]]
-5. Paralelismo a nivel de instrucción
+5. [[1759763808 - Paralelismo a nivel de instrucción|Paralelismo a nivel de instrucción]]
 6. Introducción a los multiprocesadores
 7. Modelos de programación paralela y concurrente
 

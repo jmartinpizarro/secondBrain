@@ -51,11 +51,13 @@ $$IC = \text{accesos a memoria}_{instr} \cdot (1-h) \cdot \text{penalizacion}_{f
 
 ## Identificación de bloque
 
-**Dirección de bloque:
+**Dirección de bloque**:
 - Etiqueta: identifica la dirección de entrada
 - Índice: selecciona el conjunto
+
 **Desplazamiento de bloque**
 - Selecciona datos dentro de un bloque.
+
 **Con mayor asociatividad**:
 - Menos bit de índice
 - Más bits de etiquetas

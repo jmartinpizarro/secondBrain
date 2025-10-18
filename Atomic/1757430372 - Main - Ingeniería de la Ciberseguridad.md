@@ -20,6 +20,7 @@ cssclasses:
 1. [[1757432693 - Introducción a la Ciberseguridad|Introducción a la Ciberseguridad]]
 2. [[1758035289 - Autenticación en ciberseguridad|Autenticación en ciberseguridad]]
 3. [[1759244707 - Control de acceso|Control de acceso]]
+4. [[1760454065 - Seguridad de la red|Seguridad de la red]]
 
 
 ### Labs
