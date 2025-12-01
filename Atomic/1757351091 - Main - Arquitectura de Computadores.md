@@ -14,8 +14,11 @@ cssclasses:
 3. [[1757952072 - Evaluación del rendimiento de sistemas informáticos|Evaluación del rendimiento de sistemas informáticos]]
 4. [[1758554724 - Jerarquía de memoria]]
 5. [[1759763808 - Paralelismo a nivel de instrucción|Paralelismo a nivel de instrucción]]
-6. Introducción a los multiprocesadores
-7. Modelos de programación paralela y concurrente
+6. [[1761581145 - Sistemas Multiprocesadores|Sistemas Multiprocesadores]]
+7. [[1762768357 - Memoria compartida distribuida|Memoria compartida distribuida]]
+8. [[1762790980 - Concurrencia en C++|Concurrencia en C++]]
+9. [[1764001995 - Consistencia de memoria|Consistencia de memoria]]
+
 
 ## Ejercicios
 

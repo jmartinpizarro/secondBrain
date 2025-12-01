@@ -23,6 +23,15 @@ cssclasses:
 	- i-test: 5%
 	- seminarios: 2%
 
+## Ejercicios examen
+
+1. [[1760802841 - Ejercicios Examen - Introducción Sistemas Inteligentes|Ejercicios Examen - Introducción Sistemas Inteligentes]]
+2. [[1760804179 - Ejercicios Examen - Sistemas Expertos|Ejercicios Examen - Sistemas Expertos]]
+3. [[1760860651 - Ejercicios Examen - Redes Neuronales|Ejercicios Examen - Redes Neuronales]]
+4. [[1760864162 - Ejercicios Examen - Algoritmos Evolutivos|Ejercicios Examen - Algoritmos Evolutivos]]
+5. [[1760944129 - Ejercicios Examen - Minería de datos|Ejercicios Examen - Minería de datos]]
+6. [[1761052074 - Ejercicios Examen - Minería de textos|Ejercicios Examen - Minería de textos]]
+
 ## Contenidos
 
 1. [[1757772418 - Sistemas Expertos|Sistemas Expertos]]

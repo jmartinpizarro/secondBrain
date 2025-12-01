@@ -43,4 +43,30 @@ Inicialmente, todos los campos del TCP no están encriptados y no hay autenticac
 
 ## Escaneo de redes
 
+### Descubrimiento de hosts o redes
+
+A partir de una dirección de red (conjunto de direcciones IP), descubrir cuántos de los hosts que viven ahí están vivos y corriendo.
+
+#### Usando DNS
+
+Comandos como `nslookup, host, dig`:
+- *nslookup*: simples *look-ups* de DNS
+- *host*: más detalles que *nslookup*
+- *dig*: incluso más información
+
+También se usan *ICMP pings, TCP SYN pings* y *TCP ACK pings*. Muchos de ellos no funcionan o están bloqueados.
+
+### Descubrimiento de puertos
+
+Descubrir puertos -> obtener información sobre los servicios que se están ejecutando en host remoto.
+- Descubrir servicios
+- Descubrir dispositivos conectados
+- Introducir *malware*
+
+#### Técnicas
+
+- TCP SYN (stealth) scan:
+	- Envía paquete TCP con la flag SYN
+	- Host remoto envía SYN+ACK -> ya tenemos nueva info. RST -> significa que no hay nadie
+	- Si no llega nada, está filtrado por un firewall, host down...
 ## Seguridad web
