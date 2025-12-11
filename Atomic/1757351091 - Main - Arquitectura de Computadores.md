@@ -18,6 +18,8 @@ cssclasses:
 7. [[1762768357 - Memoria compartida distribuida|Memoria compartida distribuida]]
 8. [[1762790980 - Concurrencia en C++|Concurrencia en C++]]
 9. [[1764001995 - Consistencia de memoria|Consistencia de memoria]]
+10. [[1764606039 - Consistencia de memoria en C++|Consistencia de memoria en C++]]
+11. 
 
 
 ## Ejercicios

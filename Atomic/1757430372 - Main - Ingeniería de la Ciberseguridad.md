@@ -22,6 +22,9 @@ cssclasses:
 3. [[1759244707 - Control de acceso|Control de acceso]]
 4. [[1760454065 - Seguridad de la red|Seguridad de la red]]
 5. [[1762272344 - Ingeniería de la ciberseguridad|Ingeniería de la ciberseguridad]]
+6. [[1764788617 - Vulnerabilidades|Vulnerabilidades]]
+7. [[1764788627 - Malware|Malware]]
+
 
 
 ### Labs
