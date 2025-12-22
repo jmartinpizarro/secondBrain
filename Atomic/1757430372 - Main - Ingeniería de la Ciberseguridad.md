@@ -35,4 +35,5 @@ cssclasses:
 ## Ejercicios tipo examen
 
 1. [[1759155305 - Introducción a la Ciberseguridad - Ejercicios|Introducción a la Ciberseguridad - Ejercicios]]
-2. [[1763042938 - Peligros de la red - Ejercicios|Peligros de la red - Ejercicios]]
+2. [[1766226423 - Autenticación - Ejercicios|Autenticación - Ejercicios]]
+3. [[1763042938 - Peligros de la red - Ejercicios|Peligros de la red - Ejercicios]]
