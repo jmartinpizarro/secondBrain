@@ -28,27 +28,27 @@ El atacante conseguía engañar al operador de tu línea telefónica para conseg
 
 **Problem 31**.
 
-Los tokens se transmiten a través del navegador del usuario (S) en lugar de una conexión directa entre servidores.
+Los tokens se transmiten a través del navegador del usuario (S) en lugar de una conexión directa entre servidores. Protocolo de 2 pasos.
 
-1. Solicitud de acceso: el navegador solicita acceso a un servicio protegido. Prepara una petición a la parte confiante para autenticarse
-2. Redirección al IdP: el navegador del suscriptor sigue automáticamente la redirección hacia el IdP.
-3. Autenticación del suscriptor: el IdP verifica la identidad de S. Si es existo, se devuelve una aserción firmada digitalmente que contiene los atributos permitidos.
-4. Entrega aserción
-5. Validación aserción
-6. Acceso concedido
+1. IdP -> S: assertion
+	1. S recibe la assertion desde el IdP por el canal front-end. Este canal es visible para S.
+2.  S -> RP: assertion
+	1. S usa la assertion para autenticarse al RP enviándolo por el canal front-end.
 
 ---
 
 **Problem 32**.
 
-Los tokens se transmiten directamente de servidor a servidor. Ofrece mayor seguridad.
+Los tokens se transmiten directamente de servidor a servidor. Ofrece mayor seguridad. Se basa en un protocolo de 4 pasos.
 
-1. Solicitud de acceso
-2. Autenticación y generación del Artefacto
-3. Presentación del Artefacto
-4. Intercambio en el Canal Trasero
-5. Entrega de la aserción
-6. Confirmación y acceso
+1. IdP -> S: aref
+	1. S recibe una referencia a la assertion *aref* desde IdP desde el canal front-end. No contiene ninguna información que pueda relacionarse con S. Es resistente a una fabricación sintética por el atacante
+2. S -> RP: aref
+	1. S envía la referencia a la assertion *aref* a RP a través del canal del front-end.
+3. RP -> IdP: aref, rpcred
+	1. RP envía la referencia *aref* y sus credenciales *rpcred* a IdP. Esta comunicación ocurre a través del back-end.
+4. IdP -> RP: assertion
+	1. IdP valida la *assertion* y las credenciales del RP, devolviéndoselas a RP por el canal back-end.
 
 ---
 
@@ -115,3 +115,66 @@ Somos capaces de evitar las *rainbow tables* y los diccionarios de contraseñas,
 	3. Automatización maliciosa
 2. No, no lo es. Por defecto, el principio *Fail-safe Defaults* establece que, en caso de fallo o error el sistema debe pasar a un estado que mantenga la seguridad sin comprometer la disponibilidad de manera innecesaria. En este caso, no se devuelve a un estado por defecto, sino que es la respuesta activa a un evento sospechoso.
 3. Sí, viola el principio de disponibilidad.
+
+---
+
+**Problem 43**.
+
+Pueden usar un **origin-spoofing** basado en iframes invisibles. El gestor de contraseñas realiza un auto-fill a cualquier cosa que corresponda con un tag determinada dentro de un dominio determinado.
+
+Si el atacante es capaz de replicar este estructura, el gestor de contraseñas verá dicho iframe y lo rellenará pensando que es el formulario correcto. El contenido de este iframe luego puede enviarse a una base de datos para cualquier tipo de uso. 
+
+---
+
+**Problem 44**.
+
+Inicialmente, se puede pensar que sí es seguro. Sin embargo, si se tiene en cuenta el tamaño de la seed $2^{16}$, esta no es demasiado grande. Para cada seed, se puede precomputar el número total de combinaciones posibles ($62^{10}$) y usar una tabla arcoiris con el contenido total de manera secuencial para intentar conseguir dicha contraseña.
+
+---
+
+**Problem 45**.
+
+1. La seguridad se ve en peligro si una de esas webs se ve atacada y sus datos robados. Los datos de los usuarios y las contraseñas (aunque no la web) son obtenidas por el atacante y es posible su uso de manera maliciosa.
+2. Pueden ocurrir mismos *hashes* para distintas contraseñas, lo que reduce el espacio de ataque y búsqueda de contraseñas; ya que se ha eliminado el *salt* de la ecuación. Todo esto debilita el proceso seguro de contraseñas.
+
+---
+
+## 2.3 Cryptographic Authentication Protocols
+
+**Problem 47**.
+
+Antes de todo, debemos de entender qué es un **challenge response protocol**. El servidor distribuido manda un pequeño **challenge** que solo se puede solucionar (autenticar) con un secreto compartido (contraseña del usuario). Solo si se soluciona correctamente se proporciona acceso al usuario a los recursos protegidos.
+
+---
+
+**Problem 48**.
+
+Existen dos procesos:
+1. Registro del usuario
+	1. El usuario genera una clave pública y privida
+	2. El usuario envía la clave pública al servidor
+	3. El servidor la guarda con otros datos: usuario, contraseña...
+2. Autenticación
+	1. El usuario reconoce su identidad
+	2. El servidor envía un challenge nuevo para que lo resuelva
+	3. El usuario lo firma (resuelve) con su clave privada
+	4. El servidor verifica la firma con la clave pública.
+	5. Si es válido, el usuario es autenticado.
+
+**La clave privada NUNCA se envía por la red**
+
+---
+
+**Problem 52**.
+
+Kerberos usa dos tickets para separar la autenticación del acceso al servicio, limitando un posible ataque.
+
+1. Ticket-Granting Ticket: autentica una sola vez. Evita que se vuelvan a entrar las mismas contraseñas y previene la exposición de credenciales de larga duración.
+2. Service Ticket: acceso a un servicio específico. Se devuelve encriptada la clave secreta del servicio, de corta duración.
+
+---
+
+**Problem 53**.
+
+1. El atacante no puede recrear la identidad de Alicia porque el servidor de autenticación cifra la clave de sesión usando la clave privada de Alicia, derivada de su contraseña. Sin saber la contraseña, el atacante no puede generar una petición válida al TGS.
+2. El atacante necesita la contraseña para descifrar el token de sesión, cosa que no puede hacer sin la contraseña de Alicia.

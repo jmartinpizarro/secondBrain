@@ -36,4 +36,8 @@ cssclasses:
 
 1. [[1759155305 - Introducción a la Ciberseguridad - Ejercicios|Introducción a la Ciberseguridad - Ejercicios]]
 2. [[1766226423 - Autenticación - Ejercicios|Autenticación - Ejercicios]]
-3. [[1763042938 - Peligros de la red - Ejercicios|Peligros de la red - Ejercicios]]
+3. [[1766396006 - Control de Acceso - Ejercicios|Control de Acceso - Ejercicios]]
+4. [[1763042938 - Network Security - Ejercicios|Network Security - Ejercicios]]
+5. [[1766921856 - Vulnerabilidades y Ataques - Ejercicios|Vulnerabilidades y Ataques - Ejercicios]]
+6. [[1767263692 - Malware - Ejercicios|Malware - Ejercicios]]
+
