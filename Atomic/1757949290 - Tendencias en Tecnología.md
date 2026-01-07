@@ -15,7 +15,7 @@ cssclasses:
 
 **Potencia máxima**: procesador consume más potencia de la suministrada -> caída de voltaje -> mal funcionamiento
 
-**Potencia Térmica de Diseño (TDP - thermal Design Power)**: 
+**Potencia Térmica de Diseño (TDP - Thermal Design Power)**: 
 - Consumo de potencia bajo máxima carga teórica.
 - Determina los requisitos de enfriamiento
 - Se puede superar durante periodos cortos de tiempo

@@ -24,9 +24,6 @@ cssclasses:
 5. [[1762272344 - Ingeniería de la ciberseguridad|Ingeniería de la ciberseguridad]]
 6. [[1764788617 - Vulnerabilidades|Vulnerabilidades]]
 7. [[1764788627 - Malware|Malware]]
-
-
-
 ### Labs
 
 [[1758200728 - Ciberseguridad - Lab1|Ciberseguridad - Lab1]]
@@ -41,3 +38,10 @@ cssclasses:
 5. [[1766921856 - Vulnerabilidades y Ataques - Ejercicios|Vulnerabilidades y Ataques - Ejercicios]]
 6. [[1767263692 - Malware - Ejercicios|Malware - Ejercicios]]
 
+## Exámenes Anteriores
+
+1. [[1767515908 - Examen Ciberseguridad - Enero 2024|Examen Ciberseguridad - Enero 2024]]
+2. [[1767519046 - Examen Ciberseguridad - Junio 2022|Examen Ciberseguridad - Junio 2022]]
+3. [[1767521662 - Examen Ciberseguridad - Junio 2024|Examen Ciberseguridad - Junio 2024]]
+4. [[1767693507 - Examen Ciberseguridad - Enero 2025|Examen Ciberseguridad - Enero 2025]]
+5. 
