@@ -47,3 +47,8 @@ cssclasses:
 5. [[1767775758 - Examen Ciberseguridad - Junio 2023|Examen Ciberseguridad - Junio 2023]]
 6. [[1767777481 - Examen Ciberseguridad - Mayo 2023|Examen Ciberseguridad - Mayo 2023]]
 7. [[1767777501 - Examen Ciberseguridad - Mayo 2024|Examen Ciberseguridad - Mayo 2024]]
+
+---
+1. [[1767799812 - Repaso Ciberseguridad 1|Repaso Ciberseguridad 1]]
+2. [[1767865743 - Repaso Ciberseguridad 2|Repaso Ciberseguridad 2]]
+

@@ -32,6 +32,10 @@ cssclasses:
 5. [[1760944129 - Ejercicios Examen - Minería de datos|Ejercicios Examen - Minería de datos]]
 6. [[1761052074 - Ejercicios Examen - Minería de textos|Ejercicios Examen - Minería de textos]]
 
+---
+
+1. [[1768404429 - Ejercicios Examen - Web Mining y Clasificación de Websites|Ejercicios Examen - Web Mining y Clasificación de Websites]]
+
 ## Contenidos
 
 1. [[1757772418 - Sistemas Expertos|Sistemas Expertos]]

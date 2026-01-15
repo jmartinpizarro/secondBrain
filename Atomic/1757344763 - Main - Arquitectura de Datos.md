@@ -24,3 +24,11 @@ Final: 60%. Nota mínima de 4
 2. [[1758104443 - Distribución y paralelismo en datos|Distribución y paralelismo en datos]]
 3. [[1759742962 - MongoDB - gestión de datos en bases documentales NoSQL|MongoDB - gestión de datos en bases documentales NoSQL]]
 4. [[1766504804 - Apache Cassandra]]
+
+---
+
+### Preparación Examen Final
+
+1. [[1768469070 - Cassandra - Exoplanetas|Cassandra - Exoplanetas]]
+2. [[1768471563 - Examen Extraordinario 2324 - Cassandra|Examen Extraordinario 2324 - Cassandra]]
+3. 

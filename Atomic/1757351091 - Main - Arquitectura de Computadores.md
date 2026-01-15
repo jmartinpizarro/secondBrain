@@ -19,16 +19,14 @@ cssclasses:
 8. [[1762790980 - Concurrencia en C++|Concurrencia en C++]]
 9. [[1764001995 - Consistencia de memoria|Consistencia de memoria]]
 10. [[1764606039 - Consistencia de memoria en C++|Consistencia de memoria en C++]]
-11. 
+11.  [[1766057956 - Atómicos en C++|Atómicos en C++]]
+12. [[1767953941 - Sincronización en C++|Sincronización en C++]]
 
 
 ## Ejercicios
 
 [[1758217118 - Ejercicios Arquitectura - Análisis cuantitativo del rendimiento|Ejercicios Arquitectura - Análisis cuantitativo del rendimiento]]
 [[1758219980 - Ejercicios Arquitectura - Rendimiento, energía y fiabilidad|Ejercicios Arquitectura - Rendimiento, energía y fiabilidad]]
-
-[[1759496732 - Ejercicios Arquitectura - Caché|Ejercicios Arquitectura - Caché]]
-
 ## Evaluación
 
 - Examen final: 40% de la nota final (3.5 de nota mínima)
