@@ -35,7 +35,7 @@ cssclasses:
 ---
 
 1. [[1768404429 - Ejercicios Examen - Web Mining y Clasificación de Websites|Ejercicios Examen - Web Mining y Clasificación de Websites]]
-2. algo
+2. [[1768491990 - Ejercicios Examen - Lógica Difusa|Ejercicios Examen - Lógica Difusa]]
 3. [[1768560002 - Ejercicios Examen - Agentes Inteligentes y RoboCup|Ejercicios Examen - Agentes Inteligentes y RoboCup]]
 
 ## Contenidos
