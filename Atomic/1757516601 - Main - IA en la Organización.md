@@ -37,7 +37,9 @@ cssclasses:
 1. [[1768404429 - Ejercicios Examen - Web Mining y Clasificación de Websites|Ejercicios Examen - Web Mining y Clasificación de Websites]]
 2. [[1768491990 - Ejercicios Examen - Lógica Difusa|Ejercicios Examen - Lógica Difusa]]
 3. [[1768560002 - Ejercicios Examen - Agentes Inteligentes y RoboCup|Ejercicios Examen - Agentes Inteligentes y RoboCup]]
-
+4. [[1768640333 - Seminarios - Inteligencia de Enjambre y Sistemas Multiagente|Seminarios - Inteligencia de Enjambre y Sistemas Multiagente]]
+5. [[1768641331 - Seminarios - Reconocimiento de Actividades, Emociones y Comportamiento Humano|Seminarios - Reconocimiento de Actividades, Emociones y Comportamiento Humano]]
+6. [[1768642879 - Seminarios - Modelos de Lenguaje y Procesamiento Lenguaje Natural|Seminarios - Modelos de Lenguaje y Procesamiento Lenguaje Natural]]
 ## Contenidos
 
 1. [[1757772418 - Sistemas Expertos|Sistemas Expertos]]
