@@ -33,4 +33,6 @@ Final: 60%. Nota mínima de 4
 2. [[1768471563 - Examen Extraordinario 2324 - Cassandra|Examen Extraordinario 2324 - Cassandra]]
 3. [[1768552864 - Examen Ordinario 2025 - MongoDB|Examen Ordinario 2025 - MongoDB]]
 4. [[1768558259 - Examen Ordinario 2025 - Concurrencia MariaDB|Examen Ordinario 2025 - Concurrencia MariaDB]]
-5. 
+5. [[1768729447 - Ejercicio Arquitectura de Datos - Gestión de Inventario de Bibliotecas Públicas|Ejercicio Arquitectura de Datos - Gestión de Inventario de Bibliotecas Públicas]]
+6. [[1768730057 - Ejercicio Arquitectura de Datos - Diseño de cluster en MongoDB|Ejercicio Arquitectura de Datos - Diseño de cluster en MongoDB]]
+7. 
