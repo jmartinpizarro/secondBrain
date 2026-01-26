@@ -35,4 +35,5 @@ Final: 60%. Nota mínima de 4
 4. [[1768558259 - Examen Ordinario 2025 - Concurrencia MariaDB|Examen Ordinario 2025 - Concurrencia MariaDB]]
 5. [[1768729447 - Ejercicio Arquitectura de Datos - Gestión de Inventario de Bibliotecas Públicas|Ejercicio Arquitectura de Datos - Gestión de Inventario de Bibliotecas Públicas]]
 6. [[1768730057 - Ejercicio Arquitectura de Datos - Diseño de cluster en MongoDB|Ejercicio Arquitectura de Datos - Diseño de cluster en MongoDB]]
-7. 
+7. [[1768834774 - Examen Ordinario  2425 - Cluster MongoDB|Examen Ordinario  2425 - Cluster MongoDB]]
+

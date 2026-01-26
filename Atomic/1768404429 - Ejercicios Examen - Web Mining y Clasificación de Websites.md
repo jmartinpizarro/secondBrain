@@ -26,7 +26,7 @@ El enfoque general convierte websites en un problema supervisa clásico:
 3. Entrenar clasificadores
 
 El proceso se puede expandir a:
-1. ** Scrapping (crawling desde home con profundidad):** extrae texto visible y también metadatos y atributos. Sin esto no existe nunca el documento que minar.
+1. **Scrapping (crawling desde home con profundidad):** extrae texto visible y también metadatos y atributos. Sin esto no existe nunca el documento que minar.
 2. **OCR** (imágenes) recupera texto incrustado en el diseño. El texto suele ser altamente discriminativo (compra, pagos).
 3. **Limpieza + tokenización**: elimina símbolos no alfabéticos y separa los tokens. Importa para bajar el ruido y normalizar la entrada (el vocabulario puede ser no válido si no se hace así).
 4. ***Stopwords removal:*** elimina palabras funcionales sin poder discriminativo. Importa porque reduce dimensionalidad y ruido semántico.
@@ -122,15 +122,6 @@ En desbalance, donde cae el ruido importa: si se corrompen muchos positivos, des
 **Problema 10. Analiza la metodología de validación de robustez del modelo. Explica qué se entiende por “robustez” en este contexto y cómo se comprueba que los resultados no dependen de pequeñas variaciones en las entradas.**
 
 El rendimiento degrada al aumentar la perturbación, pero no excesivamente. A partir del 15% de perturbación extra empieza a degradarse exponencialmente.
-
----
-
-**Problema 11. Evalúa los resultados obtenidos para los dos sitios identificados (Le Morne y La Laura–Malenga). Explica cómo el sistema difuso combina recursos solares, eólicos y condiciones geográficas para estimar el potencial energético total.**
-
-- Random Forest: por ensamble y bagging, tiende a promediar decisiones y reducir la varianza; eso suele dar robustez ante ruido moderado, pero en ruido alto puede aún degradar si muchos splits aprenden correlaciones espurias. Además, en features binarios seleccionados, Random Forest trabaja con señales discretas fuertes.
-- CNN: tiene mucha más capacidad. Con ruido alto puede:
-	- Memorizar patrones erróneos si no hay suficiente regularización/datos.
-	- Volverse inestable si el target es inconsistente.
 
 --- 
 

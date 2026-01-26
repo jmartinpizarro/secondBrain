@@ -118,6 +118,15 @@ Robustez significa que las zonas buenas identificadas por el modelo no cambian d
 
 ---
 
+**Problema 11. Evalúa los resultados obtenidos para los dos sitios identificados (Le Morne y La Laura–Malenga). Explica cómo el sistema difuso combina recursos solares, eólicos y condiciones geográficas para estimar el potencial energético total.**
+
+- Random Forest: por ensamble y bagging, tiende a promediar decisiones y reducir la varianza; eso suele dar robustez ante ruido moderado, pero en ruido alto puede aún degradar si muchos splits aprenden correlaciones espurias. Además, en features binarios seleccionados, Random Forest trabaja con señales discretas fuertes.
+- CNN: tiene mucha más capacidad. Con ruido alto puede:
+	- Memorizar patrones erróneos si no hay suficiente regularización/datos.
+	- Volverse inestable si el target es inconsistente.
+
+---
+
 **Problema 12. A partir del enfoque utilizado, discute cómo podría adaptarse esta metodología difusa para seleccionar ubicaciones óptimas de otras infraestructuras críticas (por ejemplo, baterías, plantas de hidrógeno, estaciones de recarga eléctrica), indicando qué factores adicionales deberían considerarse.**
 
 La metodología es transferible: se define un conjunto de capas GIS, se fuzzifican con parámetros interpretables, se establecen reglas y se obtiene un mapa final de idoneidad. Solamente cambian los criterios.
