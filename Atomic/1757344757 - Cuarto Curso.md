@@ -16,3 +16,13 @@ cssclasses:
 [[1757430372 - Main - Ingeniería de la Ciberseguridad|Main - Ingeniería de la Ciberseguridad]]
 
 [[1757516601 - Main - IA en la Organización|Main - IA en la Organización]]
+
+---
+
+[[1769436421 - Main - Procesadores del Lenguaje|Main - Procesadores del Lenguaje]]
+
+[[1769508232 - Main - Internet of Things|Main - Internet of Things]]
+
+[[1769522491 - Main - DevOps|Main - DevOps]]
+
+[[1769781825 - Main - Visión Artificial|Main - Visión Artificial]]
