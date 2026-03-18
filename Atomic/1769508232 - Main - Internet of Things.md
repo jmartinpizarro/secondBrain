@@ -12,7 +12,7 @@ Javier García Guzmán: jgarciag@inf.uc3m.es
 ## Temario ##
 
 1. [[1770113138 - Arquitecturas de Sistemas IoT|Arquitecturas de Sistemas IoT]]
-2. Dispositivos IoT
+2. [[1771844694 - Dispositivos IoT|Dispositivos IoT]]
 3. Sistemas  operativos embebidos para dispositivos IoT
 4. Fundamentos de la programación de Dispositivos IoT
 5. Empaquetamiento y despliegue de componentes IoT

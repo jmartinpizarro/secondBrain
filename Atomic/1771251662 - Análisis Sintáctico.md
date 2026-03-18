@@ -104,7 +104,74 @@ Cada función:
 - Realiza el proceso de Análisis que definen las producciones
 - Llama a las funciones delos NT que aparecen a la derecha de las producciones
 - Hace llamadas recursivas cuando hay recursividad en las producciones -> **backtracking**
+
+
 ## Análisis Sintáctico Ascendente
 
-Se aplican reducciones.
+De tipo LR.
 Vale la recursividad a izquierdas.
+Se aplican reducciones: si tenemos un conjunto de terminales que equivalen a un terminal, este conjunto se convierte en un no terminal.
+
+No se puede reducir todo, solo el **pivote de reducción**, una subcadena que encaja por la parte derecha.
+
+Se basa en acciones **shift-reduce**. Dado el elemento de la pila, y el símbolo de la entrada:
+- **Shift**: el siguiente símbolo de la entrada se desplaza a la cima de la pila.
+- **Reduce**: elimina los símbolos de la pila cuando encajen con la parte derecha de una producción y los sustituye por el No Terminal de la parte izquierda.
+- **Accept**: el parser consigue reducir la cadena de entrada completa
+- **Error**: el parser detecta un error y llama a la función de tratamiento.
+
+Estos pasos se repiten hasta lograr el **Accept**, donde la pila contendrá $\{\$, S\}$ y la entrada $\{\$\}$ o hasta que se detecta un error.
+
+Puede generar dos tipos de conflictos:
+- shift-reduce: estado en el que el parser no puede determinar si realizar un shift o un reduce
+- reduce-reduce: estado en el que el parser no puede determinar qué producción aplicar para realizar un reduce
+
+**Operaciones del parser (de las tablas)**:
+- Action: define si se hace un *shift* (y a qué estado) o un *reduce* (reduce una predicción)
+- Goto: a qué estado tras una acción
+
+### Analizador LR(0)
+
+No tiene *lookahead*. No sirve para nada, salvo para basarnos en él, podemos construir el SLR(1). Nos basamos en un en un **Autómata Finito Determinista** para poder desarrollarlo.
+1. Hay que crear el conjunto canónica $LR(0)$.
+2. Asociar acciones a los items de los estados.
+
+#### Item LR(0)
+
+Asuma:
+$$S \rightarrow var = num$$
+Un item es cada una de las posiciones que puede tener esta regla. Es decir:
+$$S \rightarrow \cdot var = num$$
+$$S \rightarrow var \cdot = num$$
+$$S \rightarrow var = \cdot num$$
+$$S \rightarrow var = num \cdot$$
+Ese punto indica lo que se encuentra procesado (metido en la pila). Solo cuando el puntero esté al final (todo está procesado) se podrá hacer la reducción (sustituimos la parte derecha por la izquierda).
+
+
+>[!DANGER]
+>Si existe una producción que fuese $A \rightarrow \lambda$, la producción que le corresponde es $A \rightarrow .$
+
+---
+
+- A los estados del AFD se les denomina **conjunto canónico $LR(0)$.
+- Un estado del conjunto canónico $LR(0)$ está formado por un conjunto de items.
+- El estado inicial del autómata es el que contenga el item del axioma.
+
+>[!DANGER] Superaxioma
+>Si **el axioma tiene varias producciones**, no se puede elegir. Para ello se crea un superaxioma, ampliando la gramática tal que:
+>$$S' \rightarrow S$$
+
+- La creación de los estados del conjunto canónico $LR(0)$ se apoya en dos funciones
+	- Cierre(cerradura, *close*): determina los items que pertenecen a un estado
+	- Ir_a(*goto*): genera un nuevo estado a partir de los items de un estado y símbolos gramaticales
+
+Asuma una gramática tal que:
+$$S \rightarrow T \mid S \space op \space T$$
+$$T \rightarrow num \mid ( \space S \space )$$
+Un posible estado de cierre (inicial, del superaxioma) sería:
+$$S' \rightarrow \cdot S$$
+$$S \rightarrow \cdot T$$
+$$S \rightarrow \cdot S \space op \space T$$
+$$T \rightarrow \cdot num$$
+$$T \rightarrow \cdot ( \space S \space )$$
+
