@@ -16,4 +16,8 @@ Araceli Sanchis de Miguel: masm@inf.uc3m.es
 1. [[1770058422 - Introducción a los compiladores|Introducción a los compiladores]]
 2. [[1770646176 - Análisis Léxico|Análisis Léxico]]
 3. [[1771251662 - Análisis Sintáctico|Análisis Sintáctico]]
-4. 
+4. [[1776086526 - Análisis Semántico|Análisis Semántico]]
+5. [[1776085862 - Análisis de tipos|Análisis de tipos]]
+
+[[1774274450 - PL - Examen Parcial 1|PL - Examen Parcial 1]]
+

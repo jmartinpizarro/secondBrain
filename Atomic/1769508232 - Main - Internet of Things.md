@@ -16,8 +16,8 @@ Javier García Guzmán: jgarciag@inf.uc3m.es
 3. Sistemas  operativos embebidos para dispositivos IoT
 4. Fundamentos de la programación de Dispositivos IoT
 5. Empaquetamiento y despliegue de componentes IoT
-6. Protocolos para la gestión de nubes de dispositivos IoT
-7. Microservicios para la gestión de nubes de dispositivos IoT
+6. [[1776093534 - Protocolos para la gestión de nubes de dispositivos IoT|Protocolos para la gestión de nubes de dispositivos IoT]]
+7. [[1776763246 - Microservicios para la gestión de nubes de dispositivos IoT|Microservicios para la gestión de nubes de dispositivos IoT]]
 
 ## Evaluación ##
 
