@@ -20,4 +20,4 @@ Araceli Sanchis de Miguel: masm@inf.uc3m.es
 5. [[1776085862 - Análisis de tipos|Análisis de tipos]]
 
 [[1774274450 - PL - Examen Parcial 1|PL - Examen Parcial 1]]
-
+[[1777286975 - PL - Ejercicios Preparación Parcial 2|PL - Ejercicios Preparación Parcial 2]]

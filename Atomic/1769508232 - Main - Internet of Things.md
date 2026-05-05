@@ -30,3 +30,13 @@ Javier García Guzmán: jgarciag@inf.uc3m.es
 	- Control de software en el dispositivo IoT
 	- Ejercicio de comunicación MQTT
 	- Varios más
+
+---
+
+## Ejercicios Examen
+
+**Docker Compose**
+[[1777963140 - Ejercicio Docker Compose|Ejercicio Docker Compose]]
+
+**Coreografía de microservicios**
+[[1777964903 - Ejercicio Coreografía de microservicios|Ejercicio Coreografía de microservicios]]
