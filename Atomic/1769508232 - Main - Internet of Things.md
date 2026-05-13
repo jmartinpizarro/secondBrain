@@ -40,3 +40,8 @@ Javier García Guzmán: jgarciag@inf.uc3m.es
 
 **Coreografía de microservicios**
 [[1777964903 - Ejercicio Coreografía de microservicios|Ejercicio Coreografía de microservicios]]
+
+**MQTT**
+[[1778659418 - MQTT - Ejercicio 1|MQTT - Ejercicio 1]] *Tacógrafo digital*
+[[1778664735 - MQTT - Ejercicio 2|MQTT - Ejercicio 2]] *Message Router*
+[[1778669247 - MQTT - Ejercicio 3|MQTT - Ejercicio 3]] *Claude I*
