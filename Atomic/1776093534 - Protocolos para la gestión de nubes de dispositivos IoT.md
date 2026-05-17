@@ -76,7 +76,7 @@ El paquete MQTT se encuentra en la parte superior de la capa TCP, siendo un tota
 
 Derivado de MQTT para redes de sensores. Mantiene la misma filosofía como un protocolo ligero, pero diseñado para los matices de una red de área personal inalámbrica típica en entornos de sensores.
 
-No requiere de pila TCP/IP. Se suele usar a través de un protocolo de enlace simple. Se puede usar sobre UDP.
+No requiere de pila ToCP/IP. Se suele usar a través de un protocolo de enlace simple. Se puede usar sobre UDP.
 
 - **Puertas de enlace**: responsabilidad de convertir el protocolo MQTT-SN a MQTT y viceversa. Las puertas de enlace también pueden ser agregadas o transparentes.
 - **Retransmisores**: ruta entre un sensor y una puerta de enlace. Puede tomar muchos caminos.

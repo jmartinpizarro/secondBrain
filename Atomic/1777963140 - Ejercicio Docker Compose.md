@@ -30,9 +30,9 @@ solicitud de la apertura de la puerta. Esta comunicación se realizará utilizan
 TCP.
 
 3) Un contenedor que representará al gestor del servomotor que recibirá de la unidad de
-control las órdenes de apartura y cierre de puertas utilizando sockets TCP.
+control las órdenes de apertura y cierre de puertas utilizando sockets TCP.
 
-4) Un contenedor que se encargará de implementar una base de datos que utililizará gestor
+4) Un contenedor que se encargará de implementar una base de datos que utilizará gestor
 del sensor NFC para determinar si una identidad puede proceder a la apertura de puerta.
 A partir de esta especificación, se deben elaborar los distintos ficheros docker-compose.yml
 que son necesarios para la correcta orquestación de los microservicios.
@@ -40,7 +40,7 @@ que son necesarios para la correcta orquestación de los microservicios.
 Será necesario contemplar los elementos necesarios para constituir correctamente la red de
 servicios, la publicación de los puertos que sea necesarios para que los distintos servicios sean
 accesibles y los volúmenes necesarios para montar los componentes. Se deben incluir los
-mecanismos para que los contendores se arranquen en la secuencia correcta.
+mecanismos para que los contenedores se arranquen en la secuencia correcta.
 
 ```yaml
 services:
