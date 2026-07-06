@@ -120,9 +120,7 @@ def mqtt_disconnect():
 	"/session/"
 	disconnected_dictionary = {"Container_id": Container_id,
 	"Status": "Off - Planned Disconnection",
-	"Timestamp":
-	
-	datetime.datetime.timestamp(datetime.datetime.now())}
+	"Timestamp": datetime.datetime.timestamp(datetime.datetime.now())}
 	json_disconnected_string = json.dumps(disconnected_dictionary)
 	
 	client.publish(SESSION_TOPIC, 
