@@ -16,7 +16,7 @@ int h (const state_t n){
 ```
 
 **Admisibilidad**: $h(n) \leq h^*(n)$
-**Consistencia**: $h(n) \leq h(n_i) + C(n, n_i)$ (específica para grafos teledirigidos)
+**Consistencia**: $h(n) \leq h(n_i) + C(n, n_i)$ (específica para grafos dirigidos)
 
 La función heurística debe de devolver 0 cuando está en la meta.
 

@@ -2,7 +2,8 @@
 aliases:
   - Ejercicios Examen - Algoritmos Evolutivos
 tags:
-"References":
+  - AG
+References:
 cssclasses:
 ---
 # Ejercicios Examen - Algoritmos Evolutivos
